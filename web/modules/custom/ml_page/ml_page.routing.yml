@@ -1,0 +1,8 @@
+
+ml_page.nylas_callback:
+  path: '/nylas-callback'
+  defaults:
+    _controller: '\Drupal\ml_page\Controller\NylasController::callback'
+    _title: 'Nylas'
+  requirements:
+    _permission: 'access content'
